@@ -13,11 +13,15 @@ I - Identity
 
 K - Constant (alias of True)
 
-S,B,D
+S - "Fusion" Combinator
+
+B - "Bluebird"
+
+D - "Dove"
 
 M - "Mockingbird"
 
-OMEGA
+OMEGA - Quine
 
 Y - Fixed Point Combinator
 
@@ -37,11 +41,11 @@ NIL - Function of one argument evaluating to True
 
 EMPTY - Function of two arguments evaluating to False
 
-HEAD,TAIL
+HEAD,TAIL - Apply a pair to a predicate or take NIL
 
-ACCESS - Apply predicate to pair or take Nil
+ACCESS - Iterate HEAD and TAIL prefixes
 
-ACCINF - Apply predicate to pair
+ACCINF - Iterate True and False postfixes
 
 ## Numerals:
 
@@ -73,4 +77,4 @@ REM - Remainder
 
 INF - Infinite list
 
-SIEVE,PRIMES
+SIEVE,PRIMES - The Sieve of Eratosthenes; very slow for some reason—there are λ-expressions that list prime numbers much faster than this.
